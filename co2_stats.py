@@ -27,7 +27,9 @@ class RLNode:
     rest : LinkedList
 
 def read_csv_files(filename: str) -> LinkedList:
-    
+    pass
+
+
 class Tests(unittest.TestCase):
     pass
 

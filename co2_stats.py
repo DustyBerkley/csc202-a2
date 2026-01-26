@@ -29,7 +29,12 @@ class RLNode:
 def read_csv_files(filename: str) -> LinkedList:
     pass
 
-
+def list_len(ll: LinkedList) -> int:
+    match ll:
+        case None:
+            return 0
+        case RLNode(first, rest):
+            return 1 + list_len(rest)
 class Tests(unittest.TestCase):
     pass
 
